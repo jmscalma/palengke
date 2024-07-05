@@ -1,0 +1,13 @@
+install xampp
+install vscode
+install node.js
+
+install git
+
+create db
+    create tables
+    create stored procedures?
+
+install libraries
+    npm install express
+    npm install cors? if mag-cors pa
