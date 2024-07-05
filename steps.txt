@@ -1,13 +1,17 @@
 install xampp
-install vscode
+install vscode + extensions
 install node.js
 
-install git
+install git ?
 
 create db
     create tables
-    create stored procedures?
+    create stored procedures
 
 install libraries
     npm install express
-    npm install cors? if mag-cors pa
+
+search code snippets 
+search for regex for validations and save
+
+
