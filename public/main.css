@@ -18,6 +18,7 @@ h1 {
 h2 {
     font-size: 32px;
     text-align: center;
+    margin: 0;
     
 }
 
@@ -26,6 +27,7 @@ h4 {
     font-size: 16px;
     text-align: center;
     margin: 0;
+    margin-top: 5px;
     color: #333;
 }
 
@@ -55,7 +57,7 @@ h4 {
 
 img {
     width: 50%;
-    height:40%;
+    height:60%;
 }
 
 .modal {
@@ -99,9 +101,9 @@ img {
     margin: 10% auto;
     padding: 10px;
     border: 1px solid #888;
-    width: 50%;
+    width: 60%;
     border-radius: 5px;
-    max-width: 600px;
+    max-width: 650px;
     text-align: center;
     background-color: white;
     display: grid;
@@ -129,6 +131,21 @@ img {
     cursor: pointer;
 }
 
+.close_order_confirmation_modal {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    left:100;
+}
+
+.close_order_confirmation_modal:hover,
+.close_order_confirmation_modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .buy_button{
     width: 80%;
     height: 35px;
@@ -144,6 +161,10 @@ img {
     color: white;
 }
 
+input#buyer_name {
+    margin-left: 30px;
+}
+
 .customer_details{
     width: 300px;
 }
@@ -151,6 +172,11 @@ img {
 .product_details{
     width: 300px;
 }
+
+.product_image_order_confirmation_modal{
+    width: 200px;
+}
+
 
 .customer_details input {
     display: block;

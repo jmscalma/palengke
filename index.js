@@ -8,7 +8,7 @@ const host = 'localhost';
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 const userRouter = require('./routes/userRoutes')
 app.use(userRouter)
